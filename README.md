@@ -1,6 +1,6 @@
-<img src="./.readme/noroff-light.png" width="160" align="right">
+# Science Museum - 1 semester project
 
-# Semester Project 1
+
 
 ## Brief
 An interactive science museum is opening in your town/city. Its core target audience is primary and middle school children (7-15) and families with young children. The museum wants a website that is informative and appealing, that will attract both middle school pupils and their parents. The site should appeal to youngsters without pandering; it should take for granted that the audience is inquisitive and intelligent. The website should be informative and engaging, but should encourage viewers to visit the museum itself. The website should be responsive and be easy to use on a variety of devices.
@@ -18,11 +18,6 @@ The project exam should reflect the student's creative and technical knowledge a
 - Please add sketches, style-tiles and a link to your Adobe XD design in the PDF
 - List all of your image and code sources inside this PDF.
 - Add your git repo link to this site PDF as well as a link to your site, which is deployed to netlify. 
-
-**Report:**  **NO Report needed. But you will deliver the PDF with everything stated above.**
-
-The duration of the Semester Project is 4 weeks.
-The deadline for this for this assignment is on the **11th of December 2020 at 23:59**
 
 ## Recommended process
 - Week 1: Plan the project and create pencil sketches for your site
@@ -46,30 +41,5 @@ The deadline for this for this assignment is on the **11th of December 2020 at 2
 - A report containing: sketches, style-tiles and a link to your Adobe XD design in the PDF, a list of all of your images and code sources, your git repo link and a link to your site on netlify.
 
 
-## Marking Criteria
-- Can apply vocational knowledge to practical problems in web development with emphasis on design process, aesthetics and the use of HTML and CSS
-- Masters industry-relevant tools, techniques and expressions in design process and development of websites in accordance with regulations and guidelines for universal design
-- Can study and document his/her own work processes and identify design related issues and what measures needs to be implemented
 
-## Resources
-- **CommunityScienceMuseum_copy.docx** has been provided for you, you may use this for copy/text for your website.
-- An image folder has been provided, you may use different images if you would like to, but please ensure that you have permission to use these images
 
-## Submission
-- If Moodle asks you for a zip folder, add your PDF to to a folder, zip that up and submit it on Moodle.
-
-## Weekly check-ins
-Google Docs link (https://bit.ly/3bs9IFM)
-
-- There will be no guidance as this is a test.
-- Inside the google doc there are 4 dates.
-- **17th November 2020** Add a link to your planning documents trello etc.
-- **24th November 2020** Add a link to your Adobe XD design
-- **1st December 2020** Add a link to your deployed netfliy assignment
-- **8th December 2020** Add a link to your deployed netfliy assignment
-
-As you develop your site you will not be given any feedback on it. The links are just to check that you are making progress on your application.
-**Updating of this Google sheet is mandatory each wednesday.**
-
-**If you ask your tutor any planning, code and design related questions you will not be answered.**
-### GOOD LUCK
