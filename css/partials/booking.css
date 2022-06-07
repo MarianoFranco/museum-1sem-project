@@ -1,0 +1,555 @@
+.portrait {
+  background-image: url("../../img/museum.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 410px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.portrait__h1 {
+  position: absolute;
+  top: 35%;
+  left: 10%;
+}
+.portrait__p {
+  position: absolute;
+  left: 10%;
+  top: 55%;
+  width: 280px;
+}
+.booking {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.booking__steps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto 10px;
+}
+.booking__subtitles {
+  display: flex;
+  width: 700px;
+  justify-content: space-between;
+}
+.booking__subtitles p {
+  padding: 5px;
+  width: 90px;
+  text-align: center;
+  color: #707070;
+}
+.btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(0, 104, 209);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 104, 209, 1) 0%,
+    rgba(0, 52, 105, 1) 100%
+  );
+}
+.btn__a {
+  color: white;
+  text-decoration: none;
+}
+.line {
+  width: 50px;
+  background-color: #0068d1;
+  height: 1px;
+}
+.line2 {
+  width: 50px;
+  background-color: rgba(133, 133, 133, 0.35);
+  height: 1px;
+}
+.btn2 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(133, 133, 133, 0.35);
+}
+.maincard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.maincard__wrapp {
+  height: 500px;
+  width: 60%;
+  border: solid 1px #707070;
+  border-radius: 15px;
+  background-color: rgb(0, 104, 209);
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.maincard__wrapp2--cover {
+  width: 98%;
+  height: 95%;
+  background-color: white;
+  border: solid 1px black;
+  display: flex;
+  justify-content: space-around;
+}
+.maincard__wrapp2--cover--del1 {
+  width: 35%;
+  display: flex;
+  justify-content: center;
+}
+.maincard__wrapp2--cover--img {
+  background-image: url("../../img/andrew-ruiz-348421.jpg");
+  background-size: 700px;
+  background-repeat: no-repeat;
+  align-self: center;
+  width: 300px;
+  height: 400px;
+  background-position-x: 25%;
+}
+.maincard__wrapp2--cover--del2 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 35px;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+.del2__h3 {
+  color: #0068d1;
+}
+.del2__p {
+  padding: 15px;
+  line-height: 30px;
+  width: 70%;
+}
+.del2__wrapp {
+  width: 90%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.del2__quantity,
+.del2__totalprice {
+  display: flex;
+  margin: 10px 0;
+}
+.del2__buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 15px 0;
+}
+.del2__buttons--button2 {
+  border-radius: 10px;
+  border: solid 1px black;
+  background: rgb(0, 104, 209);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 104, 209, 1) 0%,
+    rgba(0, 52, 105, 1) 100%
+  );
+  color: white;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+.del2__buttons--button2:hover {
+  padding: 8px 15px 12px;
+  text-shadow: 0px 2px 8px white;
+}
+
+.del2__quantity--result {
+  position: absolute;
+  left: 40%;
+}
+.specialevent__box {
+  width: 80%;
+  margin: 10px auto;
+  background-color: rgba(133, 133, 133, 0.23);
+  display: flex;
+  justify-content: space-evenly;
+}
+.specialevent__wrapp {
+  height: 530px;
+  width: 27%;
+  border: solid 1px #707070;
+  border-radius: 15px;
+  background-color: rgb(0, 104, 209);
+  margin: 30px 10px;
+  display: flex;
+  padding: 9px;
+}
+.specialevent__wrapp--cover {
+  width: 97%;
+  height: 96%;
+  background-color: white;
+  border: solid 1px black;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.specialevent__wrapp--cover--del1 {
+  width: 95%;
+  height: 220px;
+  align-self: center;
+}
+.specialevent__wrapp--cover--img1,
+.specialevent__wrapp--cover--img2,
+.specialevent__wrapp--cover--img3,
+.specialevent__wrapp--cover--img4,
+.specialevent__wrapp--cover--img5,
+.specialevent__wrapp--cover--img6,
+.specialevent__wrapp--cover--img7 {
+  background-size: 130%;
+  background-repeat: no-repeat;
+  background-position: center;
+  align-self: center;
+  width: 100%;
+  height: 90%;
+}
+.specialevent__wrapp--cover--img1 {
+  background-image: url("../../img/roberto-nickson-396152.jpg");
+}
+.specialevent__wrapp--cover--img2 {
+  background-image: url("../../img/sunny-landscape-with-windmills.jpg");
+}
+.cover__h3 {
+  color: rgb(0, 104, 209);
+  padding: 10px 0;
+  text-align: center;
+  width: 100%;
+  margin: 10px 5px;
+}
+.specialevent__wrapp--cover--p {
+  padding: 5px 20px 15px;
+  line-height: 25px;
+  height: 150px;
+  overflow: auto;
+}
+.specialevent__wrapp--cover--btn {
+  align-self: flex-end;
+  margin-top: 10px;
+}
+.specialevent__wrapp--cover--btn button {
+  border: none;
+  width: 150px;
+  height: 55px;
+  border-radius: 10px;
+  border: solid 1px black;
+  background: rgb(0, 104, 209);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 104, 209, 1) 0%,
+    rgba(0, 52, 105, 1) 100%
+  );
+  color: white;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 18px;
+}
+.allexhibitions {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+}
+.specialevent__wrapp--cover--img3 {
+  background-image: url("../../img/celso-405219.jpg");
+}
+.specialevent__wrapp--cover--img4 {
+  background-image: url("../../img/mammoth-1257288_1920.jpg");
+}
+.specialevent__wrapp--cover--img5 {
+  background-image: url("../../img/samuel-zeller-113381.jpg");
+}
+.specialevent__wrapp--cover--img6 {
+  background-image: url("../../img/samuel-zeller-158996.jpg");
+  background-size: 100%;
+}
+.specialevent__wrapp--cover--img7 {
+  background-image: url("../../img/close-up-woman-s-hand-holding-seedling.jpg");
+}
+@media (max-width: 1200px) {
+  .maincard__wrapp2--cover--del1 {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+  }
+  .maincard__wrapp2--cover--del2 {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 0px;
+    align-items: flex-start;
+    justify-content: space-evenly;
+  }
+  .del2__p {
+    padding: 15px;
+    line-height: 30px;
+    width: 95%;
+  }
+}
+@media (max-width: 991px) {
+  .maincard__wrapp {
+    height: 700px;
+    width: 95%;
+    border: solid 1px #707070;
+    border-radius: 15px;
+    background-color: rgb(0, 104, 209);
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .maincard__wrapp2--cover {
+    width: 98%;
+    height: 95%;
+    background-color: white;
+    border: solid 1px black;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+  }
+  .maincard__wrapp2--cover--del1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 30%;
+    padding: 5px;
+    /* border-radius: 5px; */
+  }
+  .maincard__wrapp2--cover--img {
+    background-image: url("../../img/andrew-ruiz-348421.jpg");
+    background-size: 700px;
+    background-repeat: no-repeat;
+    align-self: center;
+    width: 98%;
+    height: 100%;
+    background-position-x: 25%;
+    border-radius: 5px;
+  }
+  .maincard__wrapp2--cover--del2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 0;
+    align-items: center;
+    /* justify-content: flex-end; */
+    height: 70%;
+  }
+  .del2__h3 {
+    color: #0068d1;
+    width: 100%;
+  }
+  .del2__p {
+    padding: 0;
+    line-height: 30px;
+    width: 93%;
+  }
+  .del2__wrapp {
+    width: 90%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .del2__quantity,
+  .del2__totalprice {
+    display: flex;
+    margin: 10px 0;
+    justify-content: space-around;
+  }
+  .del2__quantity--result {
+    position: relative;
+    left: 0;
+  }
+  .specialevent__box {
+    width: 95%;
+    margin: auto;
+    background-color: rgba(133, 133, 133, 0.23);
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    flex-direction: column;
+  }
+  .specialevent__wrapp {
+    height: 500px;
+    width: 90%;
+    border: solid 1px #707070;
+    border-radius: 15px;
+    background-color: rgb(0, 104, 209);
+    margin: 30px 10px;
+    display: flex;
+    padding: 9px;
+  }
+  .specialevent__h3 {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .portrait {
+    background-image: url("../../img/museum.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150%;
+    min-height: 135px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .portrait__h1 {
+    position: absolute;
+    top: 28px;
+    left: 50px;
+  }
+
+  .portrait__p {
+    position: absolute;
+    color: white;
+    top: 80px;
+    left: 42px;
+    font-size: 1.2rem;
+    width: 190px;
+  }
+  .booking__subtitles {
+    display: none;
+    /* width: 700px; */
+    /* justify-content: space-between; */
+  }
+  .line {
+    width: 15px;
+    background-color: #0068d1;
+    height: 1px;
+  }
+  .line2 {
+    width: 20;
+    background-color: rgba(133, 133, 133, 0.35);
+    height: 1px;
+    width: 15px;
+  }
+  .booking__h2 {
+    font-family: "Aldrich", sans-serif;
+    font-size: 1.5rem;
+    font-weight: normal;
+    width: 100%;
+    margin: 20px auto;
+    /* align-self: center; */
+    text-align: center;
+  }
+  .maincard__wrapp {
+    height: 700px;
+    width: 95%;
+    border: solid 1px #707070;
+    border-radius: 15px;
+    background-color: rgb(0, 104, 209);
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .maincard__wrapp2--cover {
+    width: 98%;
+    height: 95%;
+    background-color: white;
+    border: solid 1px black;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+  }
+  .maincard__wrapp2--cover--del1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 30%;
+    padding: 5px;
+    /* border-radius: 5px; */
+  }
+  .maincard__wrapp2--cover--img {
+    background-image: url("../../img/andrew-ruiz-348421.jpg");
+    background-size: 700px;
+    background-repeat: no-repeat;
+    align-self: center;
+    width: 98%;
+    height: 100%;
+    background-position-x: 25%;
+    border-radius: 5px;
+  }
+  .maincard__wrapp2--cover--del2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 0;
+    align-items: center;
+    /* justify-content: flex-end; */
+    height: 70%;
+  }
+  .del2__h3 {
+    color: #0068d1;
+    width: 100%;
+  }
+  .del2__p {
+    padding: 0;
+    line-height: 30px;
+    width: 93%;
+  }
+  .del2__wrapp {
+    width: 90%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .del2__quantity,
+  .del2__totalprice {
+    display: flex;
+    margin: 10px 0;
+    justify-content: space-around;
+  }
+  .del2__quantity--result {
+    position: relative;
+    left: 0;
+  }
+  .specialevent__box {
+    width: 95%;
+    margin: auto;
+    background-color: rgba(133, 133, 133, 0.23);
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    flex-direction: column;
+  }
+  .specialevent__wrapp {
+    height: 500px;
+    width: 90%;
+    border: solid 1px #707070;
+    border-radius: 15px;
+    background-color: rgb(0, 104, 209);
+    margin: 30px 10px;
+    display: flex;
+    padding: 9px;
+  }
+  .specialevent__h3 {
+    width: 100%;
+  }
+}

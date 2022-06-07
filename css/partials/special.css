@@ -1,0 +1,286 @@
+.hero {
+  background-image: url("../../img/special.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 550px;
+  position: relative;
+}
+.hero__h1 {
+  margin: 15px;
+  position: absolute;
+  max-width: 600px;
+  left: 60%;
+  top: 5%;
+}
+.portrait__p {
+  color: #ffb073;
+  position: absolute;
+  left: 5rem;
+  top: 35%;
+  left: 63%;
+  max-width: 500px;
+  font-size: 25px;
+  line-height: 40px;
+}
+.hero__btn1 {
+  text-decoration: none;
+  color: #0068d1;
+  border: solid 3px #0068d1;
+  border-radius: 3px;
+  padding: 12px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(128, 128, 128, 1) 100%
+  );
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  width: 200px;
+  text-align: center;
+  position: absolute;
+  left: 70%;
+  bottom: 10%;
+}
+.hero__btn1:hover {
+  text-decoration: none;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 12px;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 104, 209, 1) 0%,
+    rgba(0, 52, 105, 1) 100%
+  );
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  width: 200px;
+  text-align: center;
+  position: absolute;
+  left: 70%;
+  bottom: 10%;
+  transition: all 0.2s ease-in-out;
+}
+.special {
+  width: 90%;
+  margin: auto;
+}
+.special__h2 {
+  margin: 20px auto;
+}
+.events__wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+.events__wrapper--event1 {
+  width: 30%;
+  padding: 15px;
+  text-decoration: none;
+}
+.events__wrapper--event1--img {
+  height: 400px;
+  background-image: url("../../img/roberto-nickson-396152.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 500px;
+}
+.events__wrapper--event1--img:hover,
+.events__wrapper--event1--img2:hover {
+  transform: scale(1.05);
+  transition: all 0.5s ease;
+}
+.events__wrapper--event1--text {
+  margin: 10px auto;
+  width: 80%;
+}
+.events__wrapper--event1--title {
+  margin: 20px auto;
+  color: #0068d1;
+}
+.events__wrapper--event1--p {
+  color: #707070;
+}
+.events__wrapper--event1--img2 {
+  height: 400px;
+  background-image: url("../../img/sunny-landscape-with-windmills.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 600px;
+}
+@media (max-width: 1200px) {
+  /*Desktop*/
+  .hero {
+    background-image: url(../../img/special.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 432px;
+    position: relative;
+  }
+  .portrait__p {
+    display: none;
+  }
+}
+@media (max-width: 991px) {
+  .hero {
+    background-image: url("../../img/special.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 325px;
+    position: relative;
+  }
+  .hero__btn1 {
+    text-decoration: none;
+    color: #0068d1;
+    border: solid 3px #0068d1;
+    border-radius: 3px;
+    padding: 12px;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(128, 128, 128, 1) 100%
+    );
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    width: 200px;
+    text-align: center;
+    position: absolute;
+    left: 60%;
+    bottom: 10%;
+  }
+  .events__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .events__wrapper--event1 {
+    width: 91%;
+    text-decoration: none;
+  }
+  .events__wrapper--event1--img,
+  .events__wrapper--event1--img2 {
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .events__wrapper--event1--img {
+    background-image: url("../../img/roberto-nickson-396152.jpg");
+  }
+  .events__wrapper--event1--img2 {
+    background-image: url("../../img/sunny-landscape-with-windmills.jpg");
+  }
+  .events__wrapper--event1--text {
+    margin: 10px auto;
+    width: 95%;
+  }
+  .events__wrapper--event1--p {
+    color: #707070;
+    padding: 5px 15px;
+  }
+}
+@media (max-width: 767px) {
+  .hero {
+    background-image: url("../../img/special.jpg");
+    background-size: 119%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 206px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .hero__h1 {
+    margin: 15px;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    width: 200px;
+    /* border: solid; */
+  }
+  .portrait__p {
+    color: #ffb073;
+    position: absolute;
+    left: 4%;
+    top: 10%;
+    display: none;
+  }
+  .hero__btn1 {
+    text-decoration: none;
+    color: #0068d1;
+    border: solid 3px #0068d1;
+    border-radius: 5px;
+    padding: 12px;
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(128, 128, 128, 1) 100%
+    );
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    width: 160px;
+    text-align: center;
+    position: absolute;
+    left: 51%;
+    bottom: 8%;
+  }
+  .hero__btn1:hover {
+    text-decoration: none;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 12px;
+    background: linear-gradient(
+      180deg,
+      rgba(0, 104, 209, 1) 0%,
+      rgba(0, 52, 105, 1) 100%
+    );
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    width: 160px;
+    text-align: center;
+    position: absolute;
+    left: 51%;
+    bottom: 10%;
+    transition: all 0.2s ease-in-out;
+  }
+  .events__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .events__wrapper--event1 {
+    width: 91%;
+    text-decoration: none;
+  }
+  .events__wrapper--event1--img,
+  .events__wrapper--event1--img2 {
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .events__wrapper--event1--img {
+    background-image: url("../../img/roberto-nickson-396152.jpg");
+  }
+  .events__wrapper--event1--img2 {
+    background-image: url("../../img/sunny-landscape-with-windmills.jpg");
+  }
+  .events__wrapper--event1--text {
+    margin: 10px auto;
+    width: 95%;
+  }
+  .events__wrapper--event1--p {
+    color: #707070;
+    padding: 5px 15px;
+  }
+}

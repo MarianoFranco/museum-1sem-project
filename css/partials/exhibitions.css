@@ -1,0 +1,234 @@
+.portrait {
+  background-image: url("../../img/exhibition.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 120%;
+  height: 448px;
+  position: relative;
+}
+.portrait__h1 {
+  position: absolute;
+  top: 40%;
+  left: 60%;
+}
+.portrait__p {
+  position: absolute;
+  top: 55%;
+  left: 60%;
+}
+.exhibitions {
+  width: 80%;
+  margin: auto;
+}
+.exhibitions__card {
+  background-color: rgba(133, 133, 133, 0.2);
+  margin: 20px;
+  padding: 30px;
+
+  display: flex;
+  justify-content: center;
+  border-radius: 15px;
+}
+.exhibitions__card--box1 {
+  width: 35%;
+}
+.exhibitions__card--img {
+  height: 300px;
+  width: 80%;
+  margin: auto;
+  background-image: url("../../img/mammoth-1257288_1920.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 20px;
+}
+.exhibitions__card--title {
+  margin-top: 20px;
+  color: #ffb073;
+}
+.exhibitions__card--title {
+  text-align: center;
+}
+.exhibitions__card--box2 {
+  width: 65%;
+  padding: 15px;
+}
+.exhibitions__card--box2--top {
+  margin-bottom: 25px;
+  height: 40%;
+  line-height: 25px;
+}
+.exhibitions__card--box2--bottom {
+  height: 60%;
+  padding: 5px;
+}
+.bottom__wrapp {
+  margin: 20px auto;
+}
+.bottom__wrapp--title,
+.bottom__wrapp--title {
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 20px;
+}
+.bottom__wrapp--content {
+  font-family: "Roboto";
+  font-weight: normal;
+  font-size: 20px;
+}
+.bottom__wrapp--content2 {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 20px;
+}
+.bottom__wrapp p {
+  margin-left: 60px;
+}
+.exhibitions__card--img2 {
+  height: 300px;
+  width: 80%;
+  margin: auto;
+  background-image: url("../../img/celso-405219.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 150%;
+  border-radius: 20px;
+}
+.exhibitions__card--img3 {
+  height: 300px;
+  width: 80%;
+  margin: auto;
+  background-image: url("../../img/samuel-zeller-158996.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 20px;
+}
+.exhibitions__card--img4 {
+  height: 300px;
+  width: 80%;
+  margin: auto;
+  background-image: url("../../img/samuel-zeller-113381.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 20px;
+}
+@media (max-width: 1200px) {
+  .portrait {
+    background-image: url("../../img/exhibition.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 130%;
+    height: 380px;
+    position: relative;
+  }
+  .portrait__h1 {
+    position: absolute;
+    top: 14%;
+    left: 60%;
+  }
+  .exhibitions__card--box1 {
+    width: 45%;
+  }
+  .exhibitions__card--box2--top {
+    margin-bottom: 25px;
+    height: 40%;
+    line-height: 20px;
+  }
+  .exhibitions__card--img,
+  .exhibitions__card--img2,
+  .exhibitions__card--img3,
+  .exhibitions__card--img4 {
+    height: 200px;
+    width: 80%;
+    margin: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 20px;
+  }
+}
+@media (max-width: 991px) {
+  .portrait {
+    background-image: url("../../img/exhibition.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 226px;
+    position: relative;
+  }
+  .portrait__h1 {
+    position: absolute;
+    top: 0%;
+    left: 60%;
+  }
+  .portrait__p {
+    position: absolute;
+    top: 68%;
+    left: 60%;
+  }
+  .exhibitions {
+    width: 90%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .portrait {
+    background-image: url("../../img/exhibition.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 130%;
+    height: 160px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .portrait__h1 {
+    position: absolute;
+    top: 15px;
+    left: 241px;
+  }
+
+  .portrait__p {
+    position: absolute;
+    color: white;
+    top: 107px;
+    left: 223px;
+    font-size: 1.2rem;
+  }
+  .exhibitions {
+    width: 100%;
+    margin: auto;
+  }
+  .exhibitions__card {
+    flex-direction: column;
+  }
+  .exhibitions__card--box1 {
+    width: 100%;
+  }
+  .exhibitions__card--img,
+  .exhibitions__card--img2,
+  .exhibitions__card--img3,
+  .exhibitions__card--img4 {
+    height: 190px;
+    width: 100%;
+    margin: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 20px;
+  }
+  .exhibitions__card--img {
+    background-image: url("../../img/mammoth-1257288_1920.jpg");
+  }
+  .exhibitions__card--box2 {
+    width: 100%;
+    padding: 15px;
+    align-self: center;
+  }
+}

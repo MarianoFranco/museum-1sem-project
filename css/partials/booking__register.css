@@ -1,0 +1,214 @@
+.portrait {
+  background-image: url("../../img/museum.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 410px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.portrait__h1 {
+  position: absolute;
+  top: 35%;
+  left: 10%;
+}
+.portrait__p {
+  position: absolute;
+  left: 10%;
+  top: 55%;
+  width: 280px;
+}
+.booking {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.booking__steps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto 10px;
+}
+.booking__subtitles {
+  display: flex;
+  width: 700px;
+  justify-content: space-between;
+}
+.booking__subtitles p {
+  padding: 5px;
+  width: 90px;
+  text-align: center;
+  color: #707070;
+}
+.booking__h2 {
+  text-align: center;
+}
+.btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(0, 104, 209);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 104, 209, 1) 0%,
+    rgba(0, 52, 105, 1) 100%
+  );
+}
+.btn__a {
+  color: white;
+  text-decoration: none;
+}
+.line {
+  width: 50px;
+  background-color: #0068d1;
+  height: 1px;
+}
+.line2 {
+  width: 50px;
+  background-color: rgba(133, 133, 133, 0.35);
+  height: 1px;
+}
+.btn2 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(133, 133, 133, 0.35);
+}
+.form__bg {
+  background-color: rgba(133, 133, 133, 0.23);
+  height: 60px;
+  margin: 10px 0;
+}
+.form__h3 {
+  width: 80%;
+  margin: auto;
+  padding: 13px;
+}
+.form__container {
+  width: 70%;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form__h3 {
+  width: 70%;
+  margin: 10px auto;
+}
+.form__container2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form__labels {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.form__inputs {
+  display: flex;
+  flex-direction: column;
+}
+.form__labels--label {
+  margin: 17px 20px;
+  font-family: "Aldrich";
+}
+.form__inputs--input {
+  margin: 10px 20px;
+  height: 30px;
+  width: 200px;
+}
+.form__container2--btn {
+  width: 300px;
+  height: 50px;
+  position: relative;
+  left: 48px;
+  margin: 30px auto;
+  background: rgb(0, 104, 209);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 104, 209, 1) 0%,
+    rgba(0, 52, 105, 1) 100%
+  );
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.form__container2--btn:hover {
+  padding-bottom: 5px;
+  text-shadow: 0 2px 6px white;
+}
+
+@media (max-width: 767px) {
+  .portrait {
+    background-image: url("../../img/museum.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150%;
+    min-height: 135px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .portrait__p {
+    position: absolute;
+    color: white;
+    top: 80px;
+    left: 42px;
+    font-size: 1.2rem;
+    width: 190px;
+  }
+
+  .portrait__p {
+    position: absolute;
+    color: white;
+    top: 90px;
+    left: 42px;
+    font-size: 1.2rem;
+  }
+  .booking__subtitles {
+    display: none;
+    /* width: 700px; */
+    /* justify-content: space-between; */
+  }
+  .line {
+    width: 15px;
+    background-color: #0068d1;
+    height: 1px;
+  }
+  .line2 {
+    width: 20;
+    background-color: rgba(133, 133, 133, 0.35);
+    height: 1px;
+    width: 15px;
+  }
+  .booking__h2 {
+    font-family: "Aldrich", sans-serif;
+    font-size: 1.5rem;
+    font-weight: normal;
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+  }
+  .form__container {
+    width: 95%;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+  }
+}

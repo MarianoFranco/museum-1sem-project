@@ -1,0 +1,304 @@
+h3 {
+  padding: 15px;
+}
+
+.portrait {
+  background-image: url("../../img/museum.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 410px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.portrait__h1 {
+  position: relative;
+  right: 26%;
+}
+.portrait__p {
+  position: relative;
+  right: 26%;
+  color: white;
+}
+.schedule {
+  width: 80%;
+  margin: auto;
+}
+.submenu__ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.submenu__ul--li {
+  margin: 30px;
+}
+.submenu__ul--a {
+  text-decoration: none;
+  color: black;
+  font-family: "Aldrich";
+}
+.submenu__ul--a:hover {
+  text-decoration: none;
+  color: #ffb173;
+  font-family: "Aldrich";
+}
+.timetables,
+.prices,
+.location,
+.services {
+  display: flex;
+  flex-direction: column;
+}
+.timetables__h2 i,
+.prices__h2 i,
+.location__h2 i,
+.services__h2 i {
+  margin: 15px auto;
+  color: #0068d1;
+}
+
+.timetable__wrapp {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.timetable__wrapp--calender {
+  background-image: url("../../img/calender.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 300px;
+}
+.timetable__wrapp--ul {
+  list-style: none;
+}
+
+.timetable__wrapp--li1 {
+  margin: 20px auto;
+
+  position: relative;
+}
+.timetable__wrapp--li2 {
+  margin: 20px auto;
+  position: relative;
+}
+
+.timetable__wrapp--li3 {
+  margin: 20px auto;
+  position: relative;
+}
+.timetable__wrapp--li4 {
+  margin: 20px auto;
+  position: relative;
+}
+.timetable__wrapp--li5 {
+  margin: 20px auto;
+  position: relative;
+}
+.timetable__wrapp--li1::before {
+  content: "";
+  width: 30px;
+  height: 30px;
+  background-color: #f11010;
+  border: solid 1px #707070;
+  position: absolute;
+  right: 130px;
+  margin-top: -7px;
+}
+.timetable__wrapp--li2::before {
+  content: "";
+  width: 30px;
+  height: 30px;
+  background-color: #eecdb6;
+  border: solid 1px #707070;
+  position: absolute;
+  right: 130px;
+  margin-top: -7px;
+}
+.timetable__wrapp--li3::before {
+  content: "";
+  width: 30px;
+  height: 30px;
+  background-color: #f2c29e;
+  border: solid 1px #707070;
+  position: absolute;
+  right: 130px;
+  margin-top: -7px;
+}
+.timetable__wrapp--li4::before {
+  content: "";
+  width: 30px;
+  height: 30px;
+  background-color: #f9b989;
+  border: solid 1px #707070;
+  position: absolute;
+  right: 130px;
+  margin-top: -7px;
+}
+.timetable__wrapp--li5::before {
+  content: "";
+  width: 30px;
+  height: 30px;
+  background-color: #ffb173;
+  border: solid 1px #707070;
+  position: absolute;
+  right: 130px;
+  margin-top: -7px;
+}
+.gotop {
+  text-align: left;
+  align-self: flex-end;
+  position: relative;
+  right: 5%;
+  padding: 15px;
+  font-family: "Aldrich";
+  font-size: 25px;
+  color: #707070;
+}
+.prices {
+  margin-top: 20px;
+}
+
+.prices__desc,
+.location__desc {
+  width: 90%;
+  margin: 10px auto;
+}
+.prices__desc--p {
+  width: 80%;
+  margin: 20px auto;
+}
+.location__wrapp {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.location__wrapp--data {
+  font-size: 25px;
+  margin: 15px;
+}
+.location__wrapp--data i {
+  color: #ffb073;
+  font-size: 30px;
+}
+.location__wrapp--data span {
+  margin-left: 15px;
+}
+
+.location__wrapp--mapimg {
+  background-image: url("../../img/maps.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 400px;
+  height: 270px;
+}
+.services__wrapp {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 15px;
+}
+.services__wrapp--img,
+.services__wrapp--img2 {
+  background-image: url("../../img/little-cute-girl-eating-fast-food-sandwich-with-fries-and-orange-juice-in-cafe-fast-food-concept.jpg");
+  background-repeat: no-repeat;
+  background-size: 450px;
+  background-position: center;
+  border: solid 1px #ffb073;
+  min-width: 350px;
+  height: 250px;
+  border-radius: 15px;
+}
+.services__wrapp--text {
+  width: 60%;
+  padding: 0 50px;
+}
+.services__wrapp--text h3 {
+  color: #0068d1;
+  margin-left: 5px;
+}
+.services__wrapp--img2 {
+  background-image: url("../../img/abstract-blur-and-defocused-shopping-mall.jpg");
+  background-size: 400px;
+}
+@media (max-width: 991px) {
+  .timetable__wrapp {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@media (max-width: 767px) {
+  .portrait {
+    background-image: url("../../img/museum.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150%;
+    min-height: 135px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .portrait__h1 {
+    position: absolute;
+
+    top: 28px;
+    left: 50px;
+  }
+
+  .portrait__p {
+    position: absolute;
+
+    color: white;
+    top: 90px;
+    left: 42px;
+    font-size: 1.2rem;
+  }
+  .submenu {
+    display: none;
+  }
+  .timetable__wrapp {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+  }
+  .gotop {
+    display: none;
+  }
+  h3 {
+    padding: 0;
+    width: 100%;
+    margin: 10px 0;
+  }
+  .location__wrapp {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+  }
+  .location__wrapp--data {
+    font-size: 1rem;
+    margin: 15px;
+  }
+
+  .services__wrapp {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0;
+    flex-direction: column;
+    margin: 15px 0;
+  }
+  .services__wrapp--text {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+}

@@ -1,0 +1,161 @@
+.portrait {
+  background-image: url("../../img/museum.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 410px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.portrait__h1 {
+  position: absolute;
+  left: 20%;
+}
+.portrait__p {
+  position: absolute;
+  left: 20%;
+  top: 60%;
+}
+.community {
+  width: 90%;
+  margin: auto;
+}
+.community__p {
+  line-height: 2.4rem;
+}
+.involved {
+  width: 85%;
+  margin: auto;
+}
+.involved__wrapp {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 40px auto;
+}
+.involved__wrapp--img {
+  min-width: 350px;
+  position: relative;
+}
+.involved__wrapp--img--pic,
+.involved__wrapp--img--pic2,
+.involved__wrapp--img--pic3 {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 350px;
+  height: 235px;
+}
+.involved__wrapp--img--shadow {
+  height: 234px;
+  width: 350px;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.involved__wrapp--text {
+  width: 25%;
+  line-height: 30px;
+}
+.involved__wrapp--img--h2 {
+  position: absolute;
+  top: 103px;
+  color: #ffb073;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+}
+.involved__wrapp--img--pic {
+  background-image: url("../../img/library-1132573_1920.jpg");
+}
+
+.involved__wrapp--img--pic2 {
+  background-image: url("../../img/exhibition-1863344_1920.jpg");
+  background-size: 460px;
+}
+.involved__wrapp--img--pic3 {
+  background-image: url("../../img/toa-heftiba-412579.jpg");
+  background-size: 100%;
+}
+
+@media (max-width: 991px) {
+  .involved {
+    width: 95%;
+    margin: auto;
+  }
+  .involved__wrapp {
+    display: grid;
+    grid-template-areas:
+      "img"
+      "text";
+  }
+  .involved__wrapp--text {
+    grid-area: text;
+    width: 95%;
+    line-height: 30px;
+    margin: 15px auto;
+  }
+  .involved__wrapp--img {
+    grid-area: img;
+    margin: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .portrait {
+    background-image: url(../../img/museum.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150%;
+    min-height: 135px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .portrait__h1 {
+    position: absolute;
+
+    top: 28px;
+    left: 50px;
+  }
+
+  .portrait__p {
+    position: absolute;
+
+    color: white;
+    top: 90px;
+    left: 42px;
+    font-size: 1.2rem;
+  }
+  .community {
+    width: 90%;
+    margin: auto;
+    overflow: scroll;
+    height: 300px;
+  }
+  .involved {
+    width: 95%;
+    margin: auto;
+  }
+  .involved__wrapp {
+    display: grid;
+    grid-template-areas:
+      "img"
+      "text";
+  }
+  .involved__wrapp--text {
+    grid-area: text;
+    width: 95%;
+    line-height: 30px;
+    margin: 15px auto;
+  }
+  .involved__wrapp--img {
+    grid-area: img;
+    margin: auto;
+  }
+}

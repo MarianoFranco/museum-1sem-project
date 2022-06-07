@@ -1,0 +1,249 @@
+header {
+  display: flex;
+  background: linear-gradient(
+    180deg,
+    rgba(133, 133, 133, 0.1) 0%,
+    rgba(67, 67, 67, 0.2) 100%
+  );
+  align-items: center;
+  border-bottom: solid 1px #707070;
+  height: 150px;
+}
+
+.logo {
+  width: 20%;
+}
+.logo__img {
+  width: 90%;
+}
+.menu {
+  width: 50%;
+}
+.menu__icon {
+  display: none;
+  color: #0068d1;
+}
+.menu__checkbox {
+  display: none;
+}
+.nav__ul {
+  display: flex;
+  list-style: none;
+  justify-content: flex-start;
+}
+.nav__ul--li {
+  padding: 5px;
+  margin: 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-style: normal;
+
+  position: relative;
+}
+.nav__ul--li::before {
+  content: "";
+  position: absolute;
+  background-color: #0068d1;
+  height: 2px;
+  width: 0;
+  top: 40px;
+  left: 0;
+}
+.nav__ul--li:hover::before {
+  width: 100%;
+  transition: all 0.3s ease;
+}
+.nav__ul--li a {
+  text-decoration: none;
+  color: #707070;
+}
+
+.icons {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.icons__form {
+  position: relative;
+}
+.icons__form--input {
+  background-color: white;
+  text-decoration: none;
+  border: solid 1px #707070;
+  opacity: 0.7;
+  max-width: 200px;
+  height: 30px;
+  border-radius: 50px;
+}
+.icons__form--button {
+  border: none;
+}
+.icons__form--button i {
+  position: absolute;
+  top: 21%;
+  left: 83%;
+  font-size: 1.1rem;
+  color: #0068d1;
+}
+.icons__form--button i:hover {
+  top: 20%;
+}
+.icons__user {
+  font-size: 1.5rem;
+}
+.icons__user--link {
+  color: #0068d1;
+}
+
+.icons__user:hover {
+  padding-bottom: 3px;
+}
+
+.icons__cart--link {
+  font-size: 1.5rem;
+  color: #0068d1;
+}
+.icons__cart:hover {
+  padding-bottom: 3px;
+}
+
+@media (max-width: 1200px) {
+  /*Desktop*/
+  .nav__ul--li {
+    padding: 5px;
+    margin: 5px;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.3rem;
+    font-style: normal;
+    position: relative;
+  }
+}
+
+@media (max-width: 991px) {
+  .portrait__p {
+    color: #ffb073;
+    position: absolute;
+    left: 5rem;
+    top: 35%;
+    left: 63%;
+    max-width: 500px;
+    font-size: 1rem;
+    line-height: 40px;
+    display: none;
+  }
+  .nav__ul--li {
+    padding: 5px;
+    margin: 5px;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    position: relative;
+  }
+  .icons__cart {
+    display: none;
+  }
+}
+
+/*moviles*/
+@media (max-width: 767px) {
+  header {
+    display: grid;
+    grid-template-columns: 50% 35% 15%;
+    grid-template-areas: "logo icons menu";
+  }
+  .logo {
+    grid-area: logo;
+    width: 100%;
+  }
+  .logo__img {
+    width: 100%;
+  }
+
+  .menu {
+    grid-area: menu;
+    width: 100%;
+  }
+  .icons {
+    grid-area: icons;
+    width: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .icons_form {
+    position: relative;
+    margin: 0 20px;
+  }
+  .icons__form--input {
+    background-color: white;
+    text-decoration: none;
+    border: solid 1px #707070;
+    opacity: 0.7;
+    height: 30px;
+    border-radius: 50px;
+    width: 80px;
+    position: relative;
+    top: 0;
+    left: 30px;
+  }
+  .icons__form--button {
+    position: absolute;
+    top: 5px;
+    left: 30px;
+  }
+  .icons__form--button i {
+    position: absolute;
+    top: 0px;
+    left: 50px;
+    font-size: 1.4rem;
+    color: #0068d1;
+  }
+  .icons__user {
+    font-size: 1.7rem;
+  }
+  .icons__cart {
+    display: none;
+  }
+  .menu__icon {
+    color: #0068d1;
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+  }
+  .menu__checkbox {
+    display: none;
+  }
+  .menu__checkbox:checked ~ nav {
+    display: block;
+  }
+  nav {
+    display: none;
+  }
+  .nav__ul {
+    color: white;
+    width: 100%;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    position: fixed;
+    background-color: rgb(232 232 232);
+    top: 151px;
+    left: 0%;
+    padding: 15px 0;
+    z-index: 1;
+    align-items: center;
+    border-bottom: solid 1px #707070;
+  }
+  .nav__ul--li {
+    padding: 5px;
+    margin: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    text-align: center;
+    width: 130px;
+  }
+}
